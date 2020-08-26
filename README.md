@@ -3,8 +3,12 @@
 NEAR Protocol is a decentralized application platform that is secure enough to manage high value assets like money or identity and performant enough to make them useful for everyday people, putting the power of the Open Web in their hands.
 
 
-# Warchest Bot Stakewars Warchest bot  for monitoring and adapting the stake Ⓝ
+# NEAR Protocol Warchest Bot Stakewars Warchest bot  for monitoring and adapting the stake Ⓝ
 It is warchest bot written in Go language which is used for monitoring and adapting the stake
+
+
+Put the executable in the same server and directory as you participate stakewars game, such as ``~/stakewars`.
+Make sure export NODE_ENV=betanet
 
 ### Requirements 
 This warchest bot requires:
