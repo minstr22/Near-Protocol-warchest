@@ -7,9 +7,6 @@ NEAR Protocol is a decentralized application platform that is secure enough to m
 It is warchest bot written in Go language which is used for monitoring and adapting the stake
 
 
-Put the executable in the same server and directory as you participate stakewars game, such as ``~/stakewars`.
-Make sure export NODE_ENV=betanet
-
 ### Requirements 
 This warchest bot requires:
 * Go language version 1.14.6 and higher
@@ -19,6 +16,8 @@ This warchest bot requires:
     npm install -g near-shell
     `
 * near need to be logged in shell (command)
+Put the executable in the same server and directory as you participate stakewars game, such as ``~/stakewars`.
+Make sure export NODE_ENV=betanet
 
 ### Build
 To Build the script you need to execute the following command
