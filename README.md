@@ -1,4 +1,7 @@
 
+###  Overview Protocol is a decentralized application platform that is secure enough to manage high value assets like money or identity and performant enough to make them useful for everyday people, putting the power of the Open Web in their hands.
+
+
 # Warchest Bot Stakewars Warchest bot  for monitoring and adapting the stake Ⓝ
 It is warchest bot written in Go language which is used for monitoring and adapting the stake
 
@@ -24,5 +27,4 @@ To run the command you need to execute the command
 ./main
 `
 
-Overview
-NEAR Protocol is a decentralized application platform that is secure enough to manage high value assets like money or identity and performant enough to make them useful for everyday people, putting the power of the Open Web in their hands.
+
