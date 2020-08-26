@@ -16,7 +16,7 @@ This warchest bot requires:
     npm install -g near-shell
     `
 * near need to be logged in shell (command)
-Put the executable in the same server and directory as you participate stakewars game, such as ``~/stakewars`.
+
 Make sure export NODE_ENV=betanet
 
 ### Build
