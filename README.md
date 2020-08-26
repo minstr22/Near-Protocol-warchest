@@ -31,4 +31,6 @@ To run the command you need to execute the command
 ./main
 `
 
+## License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
