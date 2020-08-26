@@ -1,5 +1,5 @@
 
-# Warchest Bot Stakewars
+# Warchest Bot Stakewars Warchest bot  for monitoring and adapting the stake Ⓝ
 It is warchest bot written in Go language which is used for monitoring and adapting the stake
 
 ### Requirements 
