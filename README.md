@@ -16,9 +16,9 @@ This warchest bot requires:
     npm install -g near-shell
     `
 * near need to be logged in shell (command)
+ export NODE_ENV=betanet
+ export NODE_ENV=testnet
 
-Make sure/ export NODE_ENV=betanet
-for testnet/ export NODE_ENV=testnet
 To Build the script you need to execute the following command
 `
 ### Build
