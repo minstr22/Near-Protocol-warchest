@@ -50,7 +50,7 @@ Add (export NODE_ENV=guildnet) to the end of the ~/.bashrc file to ensure it per
 echo 'export NODE_ENV=guildnet' >> ~/.bashrc 
 
 Install Nearup
-The Prerequisite has python3, git and curl toolset, which have been installed in previous step. please run command prompt.
+The Prerequisite has python3, git and curl toolset, which have been installed
 
 curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/near-guildnet/nearup/master/nearup | python3
 
