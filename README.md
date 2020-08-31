@@ -17,7 +17,24 @@ This warchest bot requires:
     `
 * near need to be logged in shell (command)
 
-Make sure export NODE_ENV=betanet
+Make sure/ export NODE_ENV=betanet
+for testnet/ export NODE_ENV=testnet
+
+
+
+for Guildnet
+Install near-cli
+git clone https://github.com/near-guildnet/near-cli.git
+cd near-cli
+# sudo may be needed.
+npm install -g
+Setting up your environment
+To use the guildnet network you need to update the environment via the command line.
+Open a command prompt and run
+
+export NODE_ENV=guildnet
+Add (export NODE_ENV=guildnet) to the end of the ~/.bashrc file to ensure it persists system restarts.
+echo 'export NODE_ENV=guildnet' >> ~/.bashrc 
 
 ### Build
 To Build the script you need to execute the following command
