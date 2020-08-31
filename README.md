@@ -43,11 +43,12 @@ npm install -g
 # Setting up your environment
 .
 To use the guildnet network you need to update the environment via the command line.
-Open a command prompt and run
 
-export NODE_ENV=guildnet
+
 1:   export NODE_ENV=guildnet
-2:   echo 'export NODE_ENV=guildnet' >> ~/.bashrc 
+2:   echo '
+export NODE_ENV=guildnet' >> ~/.bashrc 
+
 
 Install Nearup
 The Prerequisite has python3, git and curl toolset, which have been installed
