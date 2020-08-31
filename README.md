@@ -45,14 +45,14 @@ cd near-cli
 npm install -g
 
 # Setting up your environment
-.
 To use the guildnet network you need to update the environment via the command line.
+
 
   export NODE_ENV=guildnet
   
   
  echo 'export NODE_ENV=guildnet' >> ~/.bashrc 
-
+------------------------------
 
 Install Nearup
 The Prerequisite has python3, git and curl toolset, which have been installed
