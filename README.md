@@ -44,10 +44,10 @@ curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/near-gui
 Nearup automatically adds itself to PATH: restart the terminal, or issue the command source ~/.profile. On each run, nearup self-updates to the latest version.
 
 Launch validator node
-We recommand to use Officially Compiled Binary to lauch validator node, which is suitable to run on VPS.
-Then, input your staking pool ID in the prompt by this command.
-1:::
+We recommand to use Officially Compiled Binary to lauch validator node,
+1
 source ~/.profile
+2
 nearup guildnet --nodocker
 ### Build
 To Build the script you need to execute the following command
