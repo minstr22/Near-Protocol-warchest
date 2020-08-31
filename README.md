@@ -46,8 +46,8 @@ To use the guildnet network you need to update the environment via the command l
 Open a command prompt and run
 
 export NODE_ENV=guildnet
-Add (export NODE_ENV=guildnet) to the end of the ~/.bashrc file to ensure it persists system restarts.
-echo 'export NODE_ENV=guildnet' >> ~/.bashrc 
+1:   export NODE_ENV=guildnet
+2:   echo 'export NODE_ENV=guildnet' >> ~/.bashrc 
 
 Install Nearup
 The Prerequisite has python3, git and curl toolset, which have been installed
