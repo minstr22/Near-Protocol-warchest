@@ -58,7 +58,7 @@ curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/near-gui
 Launch validator node
 We recommand to use Officially Compiled Binary to lauch validator node,
 source ~/.profile
-then
+###  then
 nearup guildnet --nodocker
 
 ## License
