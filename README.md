@@ -22,13 +22,14 @@ for testnet/ export NODE_ENV=testnet
 
 
 
-for Guildnet
+# Guildnet.
 Install near-cli
 git clone https://github.com/near-guildnet/near-cli.git
 cd near-cli
-# sudo may be needed.
 npm install -g
-Setting up your environment
+
+# Setting up your environment
+.
 To use the guildnet network you need to update the environment via the command line.
 Open a command prompt and run
 
@@ -36,6 +37,18 @@ export NODE_ENV=guildnet
 Add (export NODE_ENV=guildnet) to the end of the ~/.bashrc file to ensure it persists system restarts.
 echo 'export NODE_ENV=guildnet' >> ~/.bashrc 
 
+Install Nearup
+The Prerequisite has python3, git and curl toolset, which have been installed in previous step. please run command prompt.
+
+curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/near-guildnet/nearup/master/nearup | python3
+Nearup automatically adds itself to PATH: restart the terminal, or issue the command source ~/.profile. On each run, nearup self-updates to the latest version.
+
+Launch validator node
+We recommand to use Officially Compiled Binary to lauch validator node, which is suitable to run on VPS.
+Then, input your staking pool ID in the prompt by this command.
+1:::
+source ~/.profile
+nearup guildnet --nodocker
 ### Build
 To Build the script you need to execute the following command
 `
