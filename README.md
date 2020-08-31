@@ -37,17 +37,21 @@ To run the command you need to execute the command
 # Guildnet Network Only!!!!!.
 Install near-cli
 git clone https://github.com/near-guildnet/near-cli.git
+
+
 cd near-cli
+
+
 npm install -g
 
 # Setting up your environment
 .
 To use the guildnet network you need to update the environment via the command line.
 
-
-1:   export NODE_ENV=guildnet
-2:   echo '
-export NODE_ENV=guildnet' >> ~/.bashrc 
+  export NODE_ENV=guildnet
+  
+  
+ echo 'export NODE_ENV=guildnet' >> ~/.bashrc 
 
 
 Install Nearup
