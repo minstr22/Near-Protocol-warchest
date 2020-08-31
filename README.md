@@ -19,10 +19,22 @@ This warchest bot requires:
 
 Make sure/ export NODE_ENV=betanet
 for testnet/ export NODE_ENV=testnet
+To Build the script you need to execute the following command
+`
+### Build
+
+go build main.go
+`
+
+### Run
+To run the command you need to execute the command
+`
+./main
+`
 
 
 
-# Guildnet.
+# Guildnet Network Only!!!!!.
 Install near-cli
 git clone https://github.com/near-guildnet/near-cli.git
 cd near-cli
@@ -48,17 +60,6 @@ We recommand to use Officially Compiled Binary to lauch validator node,
 source ~/.profile
 2
 nearup guildnet --nodocker
-### Build
-To Build the script you need to execute the following command
-`
-go build main.go
-`
-
-### Run
-To run the command you need to execute the command
-`
-./main
-`
 
 ## License
 
